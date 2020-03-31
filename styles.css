@@ -1,0 +1,97 @@
+#hi{
+	text-align: center;
+	font-color: darkblue;
+	font-weight: lighter;
+	font-size: 50px;
+	font-family: cursive ,sans-serif;
+}
+.hello::before{
+	content:"\21d2";
+}
+@media (max-width: 499px){
+    div{
+	font-family: arial, sans-serif;
+    font-size: 22px;
+    color:darkblue;
+    }
+    .hello{
+	font-size: 20px;
+	color:purple;
+	font-family: sans-serif;
+}
+}
+@media (min-width: 500px){
+	 div{
+	font-family: arial, sans-serif;
+    font-size: 32px;
+    color:darkblue;
+    }
+    a{
+	font-size: 28px;
+	color:purple;
+	font-family: sans-serif;
+}
+}
+
+h1{
+	color: red;
+    font-family: fantasy;
+
+}
+h3{
+	color:green;
+	font-family: sans-serif;
+}
+ol{
+	font-size=32px;
+
+}
+table{
+	border: 2px solid black;
+	border-collapse: collapse;
+	width: 75%;
+	margin: 2px;
+
+}
+th{
+	background-color: grey;
+	color:white;
+	font-weight: bold;
+}
+td{
+	background-color: pink;
+	color:black;
+	font-weight: bold;
+}	
+td,th{
+	font-size:40px;
+	text-align: center;
+	text-align: center;
+	border: 1px solid black;
+	padding:10px;
+}
+button{
+	background-color: orange;
+	font-size: 22px;
+	color:white;
+}
+button:hover{
+	background-color: black;
+
+}
+p{
+	font-family: sans-serif;
+	font-size:20px;
+	color:black;
+}
+.container{
+	display: flex;
+	flex-wrap: wrap;
+}
+.container > div{
+	background-color: springgreen;
+	font-size-adjust: all;
+	margin: 20px;
+	padding: 20px;
+	width:auto;
+}
