@@ -1,0 +1,49 @@
+
+$weight:bold;
+th{
+	background-color: grey;
+	color:white;
+	font-weight: $weight;
+}
+td{
+	background-color: pink;
+	color:black;
+	font-weight: $weight;
+}
+
+div{
+	font-family: arial, sans-serif;
+    font-size: 32px;
+    color:darkblue;
+    h3{
+	color:green;
+    }
+}
+%message{
+   font-family: arial, sans-serif;
+   color:darkblue;
+}
+%message1{
+	color:purple;
+	font-family: sans-serif;
+}
+ @media (max-width: 499px){
+    div{
+	@extend %message;
+    font-size: 22px;
+    }
+    .hello{
+	font-size: 20px;
+	@extend %message1;
+	}
+ }
+ @media (min-width: 500px){
+	 div{
+    font-size: 32px;
+    @extend %message;
+    }
+    a{
+    @extend %message1;
+	font-size: 28px;
+	}
+ }
