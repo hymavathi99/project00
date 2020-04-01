@@ -8,7 +8,7 @@
 .hello::before{
 	content:"\21d2";
 }
-/*@media (max-width: 499px){
+@media (max-width: 499px){
     div{
 	font-family: arial, sans-serif;
     font-size: 22px;
@@ -31,17 +31,17 @@
 	color:purple;
 	font-family: sans-serif;
 }
-}*/
+}
 
 h1{
 	color: red;
     font-family: fantasy;
 
 }
-/*h3{
+h3{
 	color:green;
 	font-family: sans-serif;
-}*/
+}
 ol{
 	font-size=32px;
 
@@ -53,7 +53,7 @@ table{
 	margin: 2px;
 
 }
-/*
+
 th{
 	background-color: grey;
 	color:white;
@@ -63,7 +63,7 @@ td{
 	background-color: pink;
 	color:black;
 	font-weight: bold;
-}*/	
+}
 td,th{
 	font-size:40px;
 	text-align: center;
